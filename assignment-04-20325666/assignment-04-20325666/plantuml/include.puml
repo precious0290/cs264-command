@@ -1,0 +1,20 @@
+@startuml
+!include .\\Canvas.puml
+!include .\\Circle.puml
+!include .\\ClearCanvas.puml
+!include .\\Command.puml
+!include .\\CreateShape.puml
+!include .\\Ellipse.puml
+!include .\\Invoker.puml
+!include .\\Line.puml
+!include .\\Path.puml
+!include .\\Polygon.puml
+!include .\\Polyline.puml
+!include .\\Program.puml
+!include .\\Rectangle.puml
+!include .\\Shape.puml
+!include .\\Square.puml
+!include .\\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net6.0\assignment-04-20325666.AssemblyInfo.puml
+!include .\\obj\Debug\net6.0\assignment-04-20325666.GlobalUsings.g.puml
+@enduml

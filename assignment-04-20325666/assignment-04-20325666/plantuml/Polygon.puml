@@ -1,0 +1,14 @@
+@startuml
+class Polygon {
+    + Polygon()
+    + Polygon(points:string)
+    + setFill(fill:string) : void
+    + getFill() : string
+    + setStroke(stroke:string) : void
+    + getStroke() : string
+    + setStrokeWidth(strokewidth:string) : void
+    + getStrokeWidth() : string
+    + getShapeAttribute() : string
+}
+Shape <|-- Polygon
+@enduml

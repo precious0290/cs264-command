@@ -1,0 +1,11 @@
+@startuml
+class Invoker {
+    + AddCommand(command:Command) : void
+    + UndoCommand() : void
+    + RedoCommand() : void
+}
+class "Stack`1"<T> {
+}
+Invoker o-> "undo<Command>" "Stack`1"
+Invoker o-> "redo<Command>" "Stack`1"
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+interface Command {
+    + Execute() : void
+    + Undo() : void
+}
+@enduml

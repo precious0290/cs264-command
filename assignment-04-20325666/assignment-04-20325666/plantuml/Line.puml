@@ -1,0 +1,14 @@
+@startuml
+class Line {
+    + Line()
+    + Line(x1:string, x2:string, y1:string, y2:string)
+    + setFill(fill:string) : void
+    + getFill() : string
+    + setStroke(stroke:string) : void
+    + getStroke() : string
+    + setStrokeWidth(strokewidth:string) : void
+    + getStrokeWidth() : string
+    + getShapeAttribute() : string
+}
+Shape <|-- Line
+@enduml

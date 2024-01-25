@@ -1,0 +1,14 @@
+@startuml
+class Square {
+    + Square()
+    + Square(x:string, y:string, height:string)
+    + setFill(fill:string) : void
+    + getFill() : string
+    + setStroke(stroke:string) : void
+    + getStroke() : string
+    + setStrokeWidth(strokewidth:string) : void
+    + getStrokeWidth() : string
+    + getShapeAttribute() : string
+}
+Shape <|-- Square
+@enduml

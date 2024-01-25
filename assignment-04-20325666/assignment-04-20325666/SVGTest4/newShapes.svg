@@ -1,0 +1,8 @@
+<svg height="1080" width="800">
+<rect x="40" y="60" width="20" height="20" stroke="black" stroke-width="1" fill="purple"/>
+<rect x="40" y="60" width="20" height="20" stroke="black" stroke-width="1" fill="purple"/>
+<rect x="40" y="60" width="20" height="10" stroke="black" stroke-width="1" fill="purple"/>
+<polyline points="20,20 40,25 60,40 80,120 120,140 200,180" stroke="black" stroke-width="1" fill="green"/>
+
+
+</svg>

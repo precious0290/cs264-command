@@ -1,0 +1,9 @@
+@startuml
+class ClearCanvas {
+    + ClearCanvas(newcanvas:Canvas)
+    + Execute() : void
+    + Undo() : void
+}
+Command <|-- ClearCanvas
+ClearCanvas --> "newcanvas" Canvas
+@enduml

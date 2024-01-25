@@ -1,0 +1,10 @@
+@startuml
+class CreateShape {
+    shape : string
+    + CreateShape(canvas:Canvas, shape:string)
+    + Execute() : void
+    + Undo() : void
+}
+Command <|-- CreateShape
+CreateShape --> "newcanvas" Canvas
+@enduml

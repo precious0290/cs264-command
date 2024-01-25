@@ -1,0 +1,14 @@
+@startuml
+class Ellipse {
+    + Ellipse()
+    + Ellipse(cx:string, cy:string, rx:string, ry:string)
+    + setFill(fill:string) : void
+    + getFill() : string
+    + setStroke(stroke:string) : void
+    + getStroke() : string
+    + setStrokeWidth(strokewidth:string) : void
+    + getStrokeWidth() : string
+    + getShapeAttribute() : string
+}
+Shape <|-- Ellipse
+@enduml
